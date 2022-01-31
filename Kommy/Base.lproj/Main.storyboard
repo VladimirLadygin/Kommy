@@ -35,6 +35,9 @@
                                                         <state key="normal" title="Й">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nI5-O7-bSS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-6T-OH9">
                                                         <rect key="frame" x="34.5" y="0.0" width="34.5" height="85"/>
@@ -43,6 +46,9 @@
                                                         <state key="normal" title="Ц">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IWy-iE-5fj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efu-Sl-JUJ">
                                                         <rect key="frame" x="69" y="0.0" width="34.5" height="85"/>
@@ -51,6 +57,9 @@
                                                         <state key="normal" title="У">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NjN-oq-Q1f"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6n-eS-Cwf">
                                                         <rect key="frame" x="103.5" y="0.0" width="34.5" height="85"/>
@@ -59,6 +68,9 @@
                                                         <state key="normal" title="К">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05y-eJ-3Ib"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgH-7Z-b4h">
                                                         <rect key="frame" x="138" y="0.0" width="34.5" height="85"/>
@@ -67,6 +79,9 @@
                                                         <state key="normal" title="Е">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgU-Bh-5Z4"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOg-21-Bgg">
                                                         <rect key="frame" x="172.5" y="0.0" width="34.5" height="85"/>
@@ -75,6 +90,9 @@
                                                         <state key="normal" title="Н">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h6-DT-RjB"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbR-qv-pVe">
                                                         <rect key="frame" x="207" y="0.0" width="34.5" height="85"/>
@@ -83,6 +101,9 @@
                                                         <state key="normal" title="Г">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfV-rm-cnf"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0q-zr-Nde">
                                                         <rect key="frame" x="241.5" y="0.0" width="34.5" height="85"/>
@@ -91,6 +112,9 @@
                                                         <state key="normal" title="Ш">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0yI-Qs-ZLV"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9J-ph-w6G">
                                                         <rect key="frame" x="276" y="0.0" width="34.5" height="85"/>
@@ -99,6 +123,9 @@
                                                         <state key="normal" title="Щ">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VhG-Gq-m52"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJo-bM-w9j">
                                                         <rect key="frame" x="310.5" y="0.0" width="34.5" height="85"/>
@@ -107,6 +134,9 @@
                                                         <state key="normal" title="З">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5RB-GZ-rxe"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qR3-KX-Oj9">
                                                         <rect key="frame" x="345" y="0.0" width="34.5" height="85"/>
@@ -115,6 +145,9 @@
                                                         <state key="normal" title="Х">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnZ-S1-dbe"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV1-uQ-Xe2">
                                                         <rect key="frame" x="379.5" y="0.0" width="34.5" height="85"/>
@@ -123,6 +156,9 @@
                                                         <state key="normal" title="Ъ">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiA-95-CST"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -136,6 +172,9 @@
                                                         <state key="normal" title="Ф">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bL9-aw-AcQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPR-EA-itd">
                                                         <rect key="frame" x="34.5" y="0.0" width="34.5" height="85.5"/>
@@ -144,6 +183,9 @@
                                                         <state key="normal" title="Ы">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0N7-cB-hGH"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjP-z7-eOr">
                                                         <rect key="frame" x="69" y="0.0" width="34.5" height="85.5"/>
@@ -152,6 +194,9 @@
                                                         <state key="normal" title="В">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDG-eg-pQd"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-RU-2wb">
                                                         <rect key="frame" x="103.5" y="0.0" width="34.5" height="85.5"/>
@@ -160,6 +205,9 @@
                                                         <state key="normal" title="А">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6qM-WG-oXP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In8-aD-his">
                                                         <rect key="frame" x="138" y="0.0" width="34.5" height="85.5"/>
@@ -168,6 +216,9 @@
                                                         <state key="normal" title="П">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9q-3U-q0q"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8A-jN-A0S">
                                                         <rect key="frame" x="172.5" y="0.0" width="34.5" height="85.5"/>
@@ -176,6 +227,9 @@
                                                         <state key="normal" title="Р">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FQ-Ci-wP9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hca-I2-RlZ">
                                                         <rect key="frame" x="207" y="0.0" width="34.5" height="85.5"/>
@@ -184,6 +238,9 @@
                                                         <state key="normal" title="О">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0I-SJ-n4r"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-K4-bPm">
                                                         <rect key="frame" x="241.5" y="0.0" width="34.5" height="85.5"/>
@@ -192,6 +249,9 @@
                                                         <state key="normal" title="Л">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRb-lI-leP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4g-VA-0vB">
                                                         <rect key="frame" x="276" y="0.0" width="34.5" height="85.5"/>
@@ -200,6 +260,9 @@
                                                         <state key="normal" title="Д">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1vu-GV-8kr"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vom-Zj-fTe">
                                                         <rect key="frame" x="310.5" y="0.0" width="34.5" height="85.5"/>
@@ -208,6 +271,9 @@
                                                         <state key="normal" title="Ж">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UxW-Qn-wrW"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcd-Fh-koI">
                                                         <rect key="frame" x="345" y="0.0" width="34.5" height="85.5"/>
@@ -216,6 +282,9 @@
                                                         <state key="normal" title="Э">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVg-Rr-hjW"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xli-Nv-3Pu">
                                                         <rect key="frame" x="379.5" y="0.0" width="34.5" height="85.5"/>
@@ -224,6 +293,9 @@
                                                         <state key="normal" title="Ё">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzt-Cy-whJ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -245,6 +317,9 @@
                                                         <state key="normal" title="Я">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6D-VG-ckP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-rU-TLT">
                                                         <rect key="frame" x="75.5" y="0.0" width="37.5" height="85"/>
@@ -253,6 +328,9 @@
                                                         <state key="normal" title="Ч">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="drv-v7-hPa"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9em-8a-xyU">
                                                         <rect key="frame" x="113" y="0.0" width="37.5" height="85"/>
@@ -261,6 +339,9 @@
                                                         <state key="normal" title="С">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thx-rD-sHt"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPJ-ad-apc">
                                                         <rect key="frame" x="150.5" y="0.0" width="37.5" height="85"/>
@@ -269,6 +350,9 @@
                                                         <state key="normal" title="М">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uZ2-BZ-oSk"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89g-Fa-soi">
                                                         <rect key="frame" x="188" y="0.0" width="38" height="85"/>
@@ -277,6 +361,9 @@
                                                         <state key="normal" title="И">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fCq-jn-1Ho"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySz-pO-ipN">
                                                         <rect key="frame" x="226" y="0.0" width="37.5" height="85"/>
@@ -285,6 +372,9 @@
                                                         <state key="normal" title="Т">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecc-fA-ohX"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcF-oV-nwy">
                                                         <rect key="frame" x="263.5" y="0.0" width="37.5" height="85"/>
@@ -293,6 +383,9 @@
                                                         <state key="normal" title="Ь">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgF-d9-xdJ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAr-Qx-c7m">
                                                         <rect key="frame" x="301" y="0.0" width="37.5" height="85"/>
@@ -301,6 +394,9 @@
                                                         <state key="normal" title="Б">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAX-PT-GO3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sro-xx-WMf">
                                                         <rect key="frame" x="338.5" y="0.0" width="38" height="85"/>
@@ -309,6 +405,9 @@
                                                         <state key="normal" title="Ю">
                                                             <color key="titleColor" systemColor="systemRedColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R3j-sw-8gU"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M5-Mz-Kgk">
                                                         <rect key="frame" x="376.5" y="0.0" width="37.5" height="85"/>
@@ -335,6 +434,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

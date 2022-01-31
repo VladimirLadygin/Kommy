@@ -42,12 +42,47 @@ class ViewController: UIViewController {
                 "Эксплуатация",
                 "Энгельс",
     ] .shuffled()
+    
+    var totalWins = 0 {
+        didSet {
+            newRound()
+        }
+    }
+    
+    var totalLosses = 0 {
+        didSet {
+            newRound()
+        }
+    }
+    
+    // Mark: Methods
+    func enableButtons(enable: Bool = true) {
+        for button in letterButtons {
+            button.isEnabled = enable
+        }
+    }
+    
+    func newRound() {
+//        guard !listOfWords.isEmpty else {
+//            enableButtons(false)
+//            updateUI ()
+//            return
+//        }
+//        let newWord = listOfWords.removeFirst()
+//        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+// Mark: IBAction
     @IBAction func letterButtonPressed(_ sender: UIButton) {
+        sender.isEnabled = false
+        let letter = sender.title(for: .normal)
+//        currentGame.playerGuessed(letter: Character(letter))
+//        updateState()
     }
     
 }
