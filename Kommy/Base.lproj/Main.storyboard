@@ -1,24 +1,402 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kommy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2rn-is-SrT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brejnev" translatesAutoresizingMaskIntoConstraints="NO" id="2jG-08-DAZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="426"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q3f-CD-rHD">
+                                        <rect key="frame" x="0.0" y="426" width="414" height="426"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-3s-cCV">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNh-rL-MaY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Й">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-6T-OH9">
+                                                        <rect key="frame" x="34.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ц">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efu-Sl-JUJ">
+                                                        <rect key="frame" x="69" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="У">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6n-eS-Cwf">
+                                                        <rect key="frame" x="103.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="К">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgH-7Z-b4h">
+                                                        <rect key="frame" x="138" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Е">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOg-21-Bgg">
+                                                        <rect key="frame" x="172.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Н">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbR-qv-pVe">
+                                                        <rect key="frame" x="207" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Г">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0q-zr-Nde">
+                                                        <rect key="frame" x="241.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ш">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9J-ph-w6G">
+                                                        <rect key="frame" x="276" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Щ">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJo-bM-w9j">
+                                                        <rect key="frame" x="310.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="З">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qR3-KX-Oj9">
+                                                        <rect key="frame" x="345" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Х">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV1-uQ-Xe2">
+                                                        <rect key="frame" x="379.5" y="0.0" width="34.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ъ">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="T3X-U0-GHW">
+                                                <rect key="frame" x="0.0" y="85" width="414" height="85.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLU-Uh-btQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ф">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPR-EA-itd">
+                                                        <rect key="frame" x="34.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ы">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjP-z7-eOr">
+                                                        <rect key="frame" x="69" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="В">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-RU-2wb">
+                                                        <rect key="frame" x="103.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="А">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In8-aD-his">
+                                                        <rect key="frame" x="138" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="П">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8A-jN-A0S">
+                                                        <rect key="frame" x="172.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Р">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hca-I2-RlZ">
+                                                        <rect key="frame" x="207" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="О">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-K4-bPm">
+                                                        <rect key="frame" x="241.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Л">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4g-VA-0vB">
+                                                        <rect key="frame" x="276" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Д">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vom-Zj-fTe">
+                                                        <rect key="frame" x="310.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ж">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcd-Fh-koI">
+                                                        <rect key="frame" x="345" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Э">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xli-Nv-3Pu">
+                                                        <rect key="frame" x="379.5" y="0.0" width="34.5" height="85.5"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ё">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vsK-RZ-K64">
+                                                <rect key="frame" x="0.0" y="170.5" width="414" height="85"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwL-WK-2Yf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZa-Mb-hFm">
+                                                        <rect key="frame" x="37.5" y="0.0" width="38" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Я">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-rU-TLT">
+                                                        <rect key="frame" x="75.5" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ч">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9em-8a-xyU">
+                                                        <rect key="frame" x="113" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="С">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPJ-ad-apc">
+                                                        <rect key="frame" x="150.5" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="М">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89g-Fa-soi">
+                                                        <rect key="frame" x="188" y="0.0" width="38" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="И">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySz-pO-ipN">
+                                                        <rect key="frame" x="226" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Т">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcF-oV-nwy">
+                                                        <rect key="frame" x="263.5" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ь">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAr-Qx-c7m">
+                                                        <rect key="frame" x="301" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Б">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sro-xx-WMf">
+                                                        <rect key="frame" x="338.5" y="0.0" width="38" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Ю">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M5-Mz-Kgk">
+                                                        <rect key="frame" x="376.5" y="0.0" width="37.5" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZN-UO-dry">
+                                                <rect key="frame" x="0.0" y="255.5" width="414" height="85.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSW-Jb-JrD">
+                                                <rect key="frame" x="0.0" y="341" width="414" height="85"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2rn-is-SrT" secondAttribute="trailing" id="3Xb-LQ-mRf"/>
+                            <constraint firstItem="2rn-is-SrT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="E3s-ls-vsk"/>
+                            <constraint firstItem="2rn-is-SrT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gro-J3-bhi"/>
+                            <constraint firstAttribute="bottom" secondItem="2rn-is-SrT" secondAttribute="bottom" id="wTz-cK-hb4"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="correctWordLabel" destination="eZN-UO-dry" id="h5q-Zl-cNh"/>
+                        <outlet property="gensecImageView" destination="2jG-08-DAZ" id="avT-pM-Ss6"/>
+                        <outlet property="scoreLabel" destination="XSW-Jb-JrD" id="oIg-ts-oH3"/>
+                        <outletCollection property="letterButtons" destination="WNh-rL-MaY" collectionClass="NSMutableArray" id="qXl-sT-tqo"/>
+                        <outletCollection property="letterButtons" destination="FxF-6T-OH9" collectionClass="NSMutableArray" id="tJa-2B-XHD"/>
+                        <outletCollection property="letterButtons" destination="Efu-Sl-JUJ" collectionClass="NSMutableArray" id="xwx-t9-Sx4"/>
+                        <outletCollection property="letterButtons" destination="w6n-eS-Cwf" collectionClass="NSMutableArray" id="VxS-p7-Th1"/>
+                        <outletCollection property="letterButtons" destination="UgH-7Z-b4h" collectionClass="NSMutableArray" id="7aJ-Dr-YUc"/>
+                        <outletCollection property="letterButtons" destination="gOg-21-Bgg" collectionClass="NSMutableArray" id="o9Q-4T-9hR"/>
+                        <outletCollection property="letterButtons" destination="AbR-qv-pVe" collectionClass="NSMutableArray" id="YZ8-QK-PR7"/>
+                        <outletCollection property="letterButtons" destination="s0q-zr-Nde" collectionClass="NSMutableArray" id="5jb-yw-kOu"/>
+                        <outletCollection property="letterButtons" destination="c9J-ph-w6G" collectionClass="NSMutableArray" id="VKa-Nt-Sg5"/>
+                        <outletCollection property="letterButtons" destination="pJo-bM-w9j" collectionClass="NSMutableArray" id="EvN-7a-0pm"/>
+                        <outletCollection property="letterButtons" destination="qR3-KX-Oj9" collectionClass="NSMutableArray" id="CdS-fo-dIV"/>
+                        <outletCollection property="letterButtons" destination="MV1-uQ-Xe2" collectionClass="NSMutableArray" id="Fe4-Mn-ool"/>
+                        <outletCollection property="letterButtons" destination="ZLU-Uh-btQ" collectionClass="NSMutableArray" id="sbN-92-rmH"/>
+                        <outletCollection property="letterButtons" destination="XPR-EA-itd" collectionClass="NSMutableArray" id="j9t-3k-Kyf"/>
+                        <outletCollection property="letterButtons" destination="ZjP-z7-eOr" collectionClass="NSMutableArray" id="tG7-44-YJQ"/>
+                        <outletCollection property="letterButtons" destination="SXb-RU-2wb" collectionClass="NSMutableArray" id="WcL-tk-DgU"/>
+                        <outletCollection property="letterButtons" destination="In8-aD-his" collectionClass="NSMutableArray" id="zMe-aU-EQE"/>
+                        <outletCollection property="letterButtons" destination="A8A-jN-A0S" collectionClass="NSMutableArray" id="vzt-mP-XV2"/>
+                        <outletCollection property="letterButtons" destination="hca-I2-RlZ" collectionClass="NSMutableArray" id="p7u-SF-Iin"/>
+                        <outletCollection property="letterButtons" destination="nXg-K4-bPm" collectionClass="NSMutableArray" id="YrP-zM-7cY"/>
+                        <outletCollection property="letterButtons" destination="O4g-VA-0vB" collectionClass="NSMutableArray" id="q8k-Px-5ni"/>
+                        <outletCollection property="letterButtons" destination="Vom-Zj-fTe" collectionClass="NSMutableArray" id="DHe-br-9rc"/>
+                        <outletCollection property="letterButtons" destination="Dcd-Fh-koI" collectionClass="NSMutableArray" id="2rq-KI-EdI"/>
+                        <outletCollection property="letterButtons" destination="xli-Nv-3Pu" collectionClass="NSMutableArray" id="Smw-Hj-sQZ"/>
+                        <outletCollection property="letterButtons" destination="iZa-Mb-hFm" collectionClass="NSMutableArray" id="By6-KV-iPV"/>
+                        <outletCollection property="letterButtons" destination="jBr-rU-TLT" collectionClass="NSMutableArray" id="e1D-HI-nSS"/>
+                        <outletCollection property="letterButtons" destination="9em-8a-xyU" collectionClass="NSMutableArray" id="eIy-Kb-G0o"/>
+                        <outletCollection property="letterButtons" destination="xPJ-ad-apc" collectionClass="NSMutableArray" id="b0L-Sg-U4f"/>
+                        <outletCollection property="letterButtons" destination="89g-Fa-soi" collectionClass="NSMutableArray" id="tST-me-arw"/>
+                        <outletCollection property="letterButtons" destination="ySz-pO-ipN" collectionClass="NSMutableArray" id="yBg-4n-cpD"/>
+                        <outletCollection property="letterButtons" destination="wcF-oV-nwy" collectionClass="NSMutableArray" id="IFC-5L-iOh"/>
+                        <outletCollection property="letterButtons" destination="UAr-Qx-c7m" collectionClass="NSMutableArray" id="Hah-zR-JXG"/>
+                        <outletCollection property="letterButtons" destination="sro-xx-WMf" collectionClass="NSMutableArray" id="u6c-9K-3Lc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="20" y="69"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="brejnev" width="1000" height="1220"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
