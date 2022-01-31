@@ -41,12 +41,14 @@ class ViewController: UIViewController {
                 "Симпозиум",
                 "Эксплуатация",
                 "Энгельс",
-    ]
+    ] .shuffled()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func letterButtonPressed(_ sender: UIButton) {
+    }
+    
 }
 
