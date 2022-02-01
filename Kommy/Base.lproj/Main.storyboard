@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2rn-is-SrT">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brejnev" translatesAutoresizingMaskIntoConstraints="NO" id="2jG-08-DAZ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gensek5" translatesAutoresizingMaskIntoConstraints="NO" id="2jG-08-DAZ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="426"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q3f-CD-rHD">
@@ -31,133 +31,121 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNh-rL-MaY">
                                                         <rect key="frame" x="0.0" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Й">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Й"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nI5-O7-bSS"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KQ2-iV-txd"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-6T-OH9">
                                                         <rect key="frame" x="34.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ц">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ц"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IWy-iE-5fj"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xg4-Q8-3Vv"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efu-Sl-JUJ">
                                                         <rect key="frame" x="69" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="У">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="У"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NjN-oq-Q1f"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYI-yG-ays"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6n-eS-Cwf">
                                                         <rect key="frame" x="103.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="К">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="К"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05y-eJ-3Ib"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U45-L0-Iuc"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgH-7Z-b4h">
                                                         <rect key="frame" x="138" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Е">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Е"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IgU-Bh-5Z4"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K3q-vr-sQ1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOg-21-Bgg">
                                                         <rect key="frame" x="172.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Н">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Н"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7h6-DT-RjB"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TtC-PQ-mTU"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbR-qv-pVe">
                                                         <rect key="frame" x="207" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Г">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Г"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfV-rm-cnf"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tU4-Ds-MWq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0q-zr-Nde">
                                                         <rect key="frame" x="241.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ш">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ш"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0yI-Qs-ZLV"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MAV-11-sNd"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9J-ph-w6G">
                                                         <rect key="frame" x="276" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Щ">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Щ"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VhG-Gq-m52"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KAK-rp-wxy"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJo-bM-w9j">
                                                         <rect key="frame" x="310.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="З">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="З"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5RB-GZ-rxe"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n5h-V7-7vS"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qR3-KX-Oj9">
                                                         <rect key="frame" x="345" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Х">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Х"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnZ-S1-dbe"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ke5-yJ-Jvd"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV1-uQ-Xe2">
                                                         <rect key="frame" x="379.5" y="0.0" width="34.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ъ">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ъ"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiA-95-CST"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gn-TN-qic"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -168,133 +156,121 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLU-Uh-btQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ф">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ф"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bL9-aw-AcQ"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a31-lf-Zvw"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPR-EA-itd">
                                                         <rect key="frame" x="34.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ы">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ы"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0N7-cB-hGH"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uOM-1L-cEB"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjP-z7-eOr">
                                                         <rect key="frame" x="69" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="В">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="В"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gDG-eg-pQd"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQf-h3-DgV"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-RU-2wb">
                                                         <rect key="frame" x="103.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="А">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="А"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6qM-WG-oXP"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j7l-HS-ckW"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="In8-aD-his">
                                                         <rect key="frame" x="138" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="П">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="П"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9q-3U-q0q"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wlw-9g-uBf"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8A-jN-A0S">
                                                         <rect key="frame" x="172.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Р">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Р"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FQ-Ci-wP9"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kil-lm-Pvk"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hca-I2-RlZ">
                                                         <rect key="frame" x="207" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="О">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="О"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0I-SJ-n4r"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MKm-Zr-Udl"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXg-K4-bPm">
                                                         <rect key="frame" x="241.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Л">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Л"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRb-lI-leP"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gc8-ep-27b"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4g-VA-0vB">
                                                         <rect key="frame" x="276" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Д">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Д"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1vu-GV-8kr"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UCZ-do-Ulp"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vom-Zj-fTe">
                                                         <rect key="frame" x="310.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ж">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ж"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UxW-Qn-wrW"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hmp-qi-ud1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcd-Fh-koI">
                                                         <rect key="frame" x="345" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Э">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Э"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVg-Rr-hjW"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7hb-xc-Ril"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xli-Nv-3Pu">
                                                         <rect key="frame" x="379.5" y="0.0" width="34.5" height="85.5"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ё">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ё"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kzt-Cy-whJ"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7gC-e4-PAW"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -305,130 +281,117 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qwL-WK-2Yf">
                                                         <rect key="frame" x="0.0" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZa-Mb-hFm">
                                                         <rect key="frame" x="37.5" y="0.0" width="38" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Я">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Я"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6D-VG-ckP"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o80-t1-az1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-rU-TLT">
                                                         <rect key="frame" x="75.5" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ч">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ч"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="drv-v7-hPa"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9nW-vx-hpw"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9em-8a-xyU">
                                                         <rect key="frame" x="113" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="С">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="С"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thx-rD-sHt"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hr1-B6-kdC"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPJ-ad-apc">
                                                         <rect key="frame" x="150.5" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="М">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="М"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uZ2-BZ-oSk"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vsa-PK-Hme"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89g-Fa-soi">
                                                         <rect key="frame" x="188" y="0.0" width="38" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="И">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="И"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fCq-jn-1Ho"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P8V-cS-w31"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySz-pO-ipN">
                                                         <rect key="frame" x="226" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Т">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Т"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecc-fA-ohX"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TUh-4v-ml2"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcF-oV-nwy">
                                                         <rect key="frame" x="263.5" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ь">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ь"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgF-d9-xdJ"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meq-iB-6bh"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAr-Qx-c7m">
                                                         <rect key="frame" x="301" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Б">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Б"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAX-PT-GO3"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPg-GM-DZz"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sro-xx-WMf">
                                                         <rect key="frame" x="338.5" y="0.0" width="38" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Ю">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
+                                                        <state key="normal" title="Ю"/>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R3j-sw-8gU"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VBI-jw-7FU"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8M5-Mz-Kgk">
                                                         <rect key="frame" x="376.5" y="0.0" width="37.5" height="85"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                        <color key="tintColor" systemColor="systemRedColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal">
-                                                            <color key="titleColor" systemColor="systemRedColor"/>
-                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZN-UO-dry">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word from glossary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZN-UO-dry">
                                                 <rect key="frame" x="0.0" y="255.5" width="414" height="85.5"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
-                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSW-Jb-JrD">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wins and Losses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSW-Jb-JrD">
                                                 <rect key="frame" x="0.0" y="341" width="414" height="85"/>
-                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
-                                                <color key="textColor" systemColor="systemRedColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -491,7 +454,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="brejnev" width="1000" height="1220"/>
+        <image name="Gensek5" width="3000" height="3660"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

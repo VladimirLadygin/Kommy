@@ -16,7 +16,7 @@ struct Game {
     }
     
     var guessedWord: String {
-    var wordToShow = " "
+    var wordToShow = ""
     for letter in word {
         if guessedLetters.contains(Character(letter.lowercased())) || letter == "-" || letter == " " {
             wordToShow += String(letter)
@@ -26,11 +26,14 @@ struct Game {
     }
     return wordToShow
     }
+    
     mutating func playerGuessed(letter: Character) {
         let lowercasedLetter = Character(letter.lowercased())
         guessedLetters.append(lowercasedLetter)
         if !word.lowercased().contains(lowercasedLetter)    {
             incorrectMovesRemaining -= 1
         }
+        print(#line, guessedWord == word, "_\(guessedWord)_", "_\(word)_") //Check values in variables for fix trouble equal
+        print(#line, word,incorrectMovesRemaining,guessedWord) //For view
     }
 }
