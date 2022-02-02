@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7CDD67427AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CDD67127AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png */; };
+		E7CDD67527AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CDD67227AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png */; };
+		E7CDD67627AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CDD67327AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png */; };
 		E7FF10C527A81BBC00187BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF10C427A81BBC00187BA9 /* AppDelegate.swift */; };
 		E7FF10C727A81BBC00187BA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF10C627A81BBC00187BA9 /* SceneDelegate.swift */; };
 		E7FF10C927A81BBC00187BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF10C827A81BBC00187BA9 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7CDD67127AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png"; sourceTree = "<group>"; };
+		E7CDD67227AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png"; sourceTree = "<group>"; };
+		E7CDD67327AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png"; sourceTree = "<group>"; };
 		E7FF10C127A81BBC00187BA9 /* Kommy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kommy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FF10C427A81BBC00187BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7FF10C627A81BBC00187BA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7CDD67027AAA81A00471C31 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E7CDD67127AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png */,
+				E7CDD67227AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png */,
+				E7CDD67327AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		E7FF10B827A81BBC00187BA9 = {
 			isa = PBXGroup;
 			children = (
+				E7CDD67027AAA81A00471C31 /* Images */,
 				E7FF10C327A81BBC00187BA9 /* Kommy */,
 				E7FF10C227A81BBC00187BA9 /* Products */,
 			);
@@ -129,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7FF10D127A81BBD00187BA9 /* LaunchScreen.storyboard in Resources */,
+				E7CDD67627AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.47.39.png in Resources */,
+				E7CDD67427AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.46.38.png in Resources */,
 				E7FF10CE27A81BBD00187BA9 /* Assets.xcassets in Resources */,
+				E7CDD67527AAA81A00471C31 /* Simulator Screen Shot - iPhone 11 - 2022-02-02 at 14.48.01.png in Resources */,
 				E7FF10CC27A81BBC00187BA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
