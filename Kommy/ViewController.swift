@@ -96,6 +96,9 @@ class ViewController: UIViewController {
         var displayWord = [String] ()
         for letter in currentGame.guessedWord {
             displayWord.append(String(letter))
+            if letter == " " || letter == "-" {
+                displayWord.append("\n")
+            }
         }
         correctWordLabel.text = displayWord.joined(separator: " ")
     }
