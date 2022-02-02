@@ -74,18 +74,24 @@ class ViewController: UIViewController {
     }
     
     func newRound() {
-        guard !listOfWords.isEmpty else {
+        //        guard !listOfWords.isEmpty else {
+        //            enableButtons(enable: false)
+        //            updateUI () // Если словарь пустой, функция постоянно делает апдейт UI и крутится счётчик проигранных игр, что неправильно.
+        //            return
+        //        }
+        if !listOfWords.isEmpty {
+            let newWord = listOfWords.removeFirst()
+            currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
+            updateUI()
+            enableButtons()
+            
+            print(newWord,incorrectMovesAllowed)
+        } else {
             enableButtons(enable: false)
-            updateUI ()
-            return
+            correctWordLabel.text = "Экзамен окончен, ваши резульаты:"
         }
-        let newWord = listOfWords.removeFirst()
-        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
-        updateUI()
-        enableButtons()
-        
-        print(newWord,incorrectMovesAllowed)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Do any additional setup after loading the view.
@@ -103,7 +109,6 @@ class ViewController: UIViewController {
         correctWordLabel.text = displayWord.joined(separator: " ")
     }
     
-    
     func updateState () {
         //        print(#line, currentGame.guessedWord == currentGame.word)
         if currentGame.incorrectMovesRemaining <= 0 {
@@ -117,7 +122,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
     func updateUI() {
         let movesRemaining = currentGame.incorrectMovesRemaining
         let imageNumber = (movesRemaining + 6*6) % 6
@@ -128,9 +132,7 @@ class ViewController: UIViewController {
         
         updateState()
         //        print(movesRemaining,imageNumber,gensecImageView.image)
-        
     }
-    
     
     //Mark: IBAction
     @IBAction func letterButtonPressed(_ sender: UIButton) {
@@ -139,9 +141,4 @@ class ViewController: UIViewController {
         currentGame.playerGuessed(letter: Character(letter))
         updateUI()
     }
-    
-    
-    
 }
-
-
